@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "policies": {
+    "branch": {
+      "enabled": true,
+      "requireCodeOwnerReviews": false,
+      "dismissStaleReviews": true,
+      "requireStatusChecks": true,
+      "requireBranchesToBeUpToDate": true,
+      "enforceAdmins": false,
+      "restrictPushes": false,
+      "restrictReviewDismissals": false,
+      "allowForcePushes": false,
+      "allowDeletions": false
+    },
+    "outside": {
+      "enabled": false
+    },
+    "secret": {
+      "enabled": true
+    },
+    "admin": {
+      "enabled": true,
+      "allowListUsers": []
+    }
+  },
+  "exemptions": {
+    "branch": [],
+    "outside": [],
+    "secret": [],
+    "admin": []
+  }
+}
